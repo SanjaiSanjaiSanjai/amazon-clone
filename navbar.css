@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root{
+    --bgc-b : #000000;
+    --grn   : #ffff3f;
+    --bgc-g : #ced4da;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'comfortaa';
+    font-weight: bold;
+}
+
+.content-div{
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--bgc-b);
+    position: fixed;
+    transform: translateX(-100%);
+    transition: all .3s ease-in
+}
+#content.active{
+    transform: translateX(0);
+}
+
+.menu-sec{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-sec svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    fill: var(--grn);
+}
+
+.menu-sec span{
+    color: var(--grn);
+}
+
+.menu-icon-sec{
+    margin-left: auto;
+}
+
+.menu-icon-sec svg{
+    fill: var(--bgc-g);
+
+}
+
+.title-div{
+    width: 100%;
+    height: 3%;
+    margin-top: 40px;
+    color: var(--bgc-g);
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.title-div hr {
+    width: 12px;
+    margin-left: auto;
+}
+
+.content-div .item-sec{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.content-div .item-sec .general{
+    width: 100%;
+    height: 8%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content-div .item-sec .general svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content-div .item-sec .members{
+    width: 100%;
+    height: 8%;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content-div .item-sec .members svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.content-div .item-sec .teams{
+    width: 100%;
+    height: 8%;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content-div .item-sec .teams svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content-div .item-sec .custom-fields{
+    width: 100%;
+    height: 8%;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content-div .item-sec .custom-fields svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content-div .item-sec .security{
+    width: 100%;
+    height: 8%;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content-div .item-sec .security svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content-div .item-sec .integration{
+    width: 100%;
+    height: 8%;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid orangered; */
+}
+
+.content-div .item-sec .integration svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.horizantel-line{
+    margin: 10% 15px 0 15px;
+    border: 1px solid gray;
+}
+
+.btn-div svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.account{
+    text-transform: uppercase;
+    color: var(--bgc-g);
+    letter-spacing: 2px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.account hr{
+    width: 10px;
+    margin-left: auto;
+}
+
+.profile{
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.profile svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.password{
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.password svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}

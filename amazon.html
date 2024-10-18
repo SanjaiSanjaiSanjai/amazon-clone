@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <div class="nav_section">
+            <div class="logo border">
+                <img src="./hotstar_image/amazon_logo.png" alt="this not" width="90px">
+            </div>
+
+            <div class="nav_add border">
+                <p class="add_first">Deliver to</p>
+
+                <div class="add_icon ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add_sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav_select">
+                <select class="first_select">
+                    <option>All</option>
+                </select>
+
+                <div class="nav_input">
+                    <input placeholder="Search Amazon" class="get_input">
+                </div>
+
+                <div class="nav_search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="signin border">
+                <div class="first_signin">
+                    <p>Hello,sign in</p>
+                </div>
+
+                <div class="sec_signin">
+                    <p>Account & list</p>
+                </div>
+            </div>
+
+            <div class="signin border Returns">
+                <div class="first_signin">
+                    <p>Returns</p>
+                </div>
+
+                <div class="sec_signin">
+                    <p>& Order</p>
+                </div>
+            </div>
+
+            <div class="cart border">
+                <div class="cart_logo">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p>Cart</p>
+            </div>
+        </div>
+
+        <div class="deals ">
+            <div class="bars border">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                <p>All</p>
+            </div>
+            <div class="today_deals border">
+                <p>Today's Deals</p>
+            </div>
+           <div class="service border">
+            <p >Customer Service</p>
+           </div>
+
+           <div class="register border">
+            <p >Registry</p>
+           </div>
+
+           <div class="gift border">
+            <p >Gift Cards</p>
+           </div>
+
+           <div class="sell border">
+            <p >Sell</p>
+           </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="img_container">
+            <ul id="slider">
+                <li class="img_1">
+                    <img src="./hotstar_image/kitchen.jpg">
+                </li>
+
+                <li class="img_1 ulli">
+                    <img src="./hotstar_image/book_shop.jpg">
+                </li>
+
+                <li class="img_1 ulli">
+                    <img src="./hotstar_image/your_quest.jpg">
+                </li>
+
+                <li class="img_1 ulli">
+                    <img src="./hotstar_image/toys.jpg">
+                </li>
+
+                <li class="img_1 ulli">
+                    <img src="./hotstar_image/beauty_product.jpg">
+                </li>
+            </ul>
+               
+            
+
+            <div class="arrows">
+               <div class="arrow_icons">
+                <button onclick="previous()"><i class="fa-solid fa-chevron-left"></i></button>
+                <button onclick="next()"><i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+            </div>
+        </div>
+    </article>
+    <script src="amazon.js"></script>
+</body>
+</html>
